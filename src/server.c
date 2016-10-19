@@ -1,5 +1,5 @@
 /** server.c
- * CS165 Fall 2015
+ * CS165 Fall 2016
  *
  * This file provides a basic unix socket implementation for a server
  * used in an interactive client-server database.
@@ -28,6 +28,7 @@
 #include "message.h"
 #include "utils.h"
 #include "client_context.h"
+#include "tasks.h"
 
 #define DEFAULT_QUERY_BUFFER_SIZE 1024
 
@@ -37,6 +38,7 @@
  **/
 char* execute_DbOperator(DbOperator* query) {
     free(query);
+
     return "165";
 }
 

@@ -1,7 +1,7 @@
 #define _XOPEN_SOURCE
 /**
  * client.c
- *  CS165 Fall 2015
+ *  CS165 Fall 2016
  *
  * This file provides a basic unix socket implementation for a client
  * used in an interactive client-server database.
